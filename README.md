@@ -12,7 +12,7 @@ DynGD takes 4 environment variable:
 
 This will associate `home.example.com`, `vpn.example.com`, `private.example.com` with your conenction IP
 
-##Running it:
+## Running it:
 You can of course always run it with a `node index.js` or `npm start` just like every other node project.
 Yet the best and most convinient way is using docker:
 
