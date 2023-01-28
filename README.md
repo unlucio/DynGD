@@ -7,7 +7,7 @@ DynGD is a simple script that does [Dynamic DNS](https://en.wikipedia.org/wiki/D
 DynGD takes 4 environment variable:
 
 - DOMAIN: your domain name. ex: `example.com`
-- DOMAIN_NAMES: comma separated list of subdomains you with to associate with your IP. ex: `home, vpn, private`
+- DOMAIN_NAMES: comma separated list of subdomains you wish to associate with your IP. ex: `home, vpn, private`
 - GD_SECRET and GD_KEY: API access credentials you can generate at [https://developer.godaddy.com/keys](https://developer.godaddy.com/keys)
 
 This will associate `home.example.com`, `vpn.example.com`, `private.example.com` with your conenction IP
