@@ -1,5 +1,5 @@
 {
-  "name": "gd",
+  "name": "dyngd",
   "version": "1.0.0",
   "description": "godaddy api thing",
   "main": "index.js",
@@ -8,17 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unlucio/gd.git"
+    "url": "git+https://github.com/unlucio/DynGD.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/unlucio/gd/issues"
+    "url": "https://github.com/unlucio/DynGD/pulls"
   },
-  "homepage": "https://github.com/unlucio/gd#readme",
+  "homepage": "https://github.com/unlucio/DynGD#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "node-fetch": "^3.3.0",
     "superagent": "^8.0.9"
   }
 }

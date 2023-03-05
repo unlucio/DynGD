@@ -1,11 +1,9 @@
-FROM node:18.13
+FROM node:lts-alpine
 LABEL maintainer="unlucio@gmail.com"
 
 COPY . /app
 WORKDIR /app
 
 RUN npm install --ignore-scripts --progress=false
-
-EXPOSE $PORT
 
 CMD ["/usr/local/bin/npm", "start"]
